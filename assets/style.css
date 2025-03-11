@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&display=swap');
+
+:root {
+    --purple-50: #f2e6ff;
+    --purple-300: #c299ff;
+    --purple-500: #8559da;
+
+    --white: #ffffff;
+    --grey-100: #d9e2ec;
+    --grey-200: #cfcfcf;
+    --grey-400: #7a7a7a;
+    --grey-500: #4a4a4a;
+    --dark-blue: #1b263b;
+    --black: #121212;
+    --black-shadow: #1212124d;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.4;
+    color: var(--dark-blue);
+    background: var(--grey-100);
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr repeat(4, 2fr) 1fr;
+    grid-template-rows: .7fr repeat(2, 2fr) .7fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    
+}
+
+.container {
+    border-radius: 8px;
+    padding: 1.6em;
+    box-shadow: 25px 25px 25px var(--black-shadow);
+    
+
+}
+
+
+
+.person {
+    display: flex;
+    align-items: center;
+}
+
+.person-img {
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.quote {
+    display: block;
+    width: 70px;
+    position: relative;
+    top: 10px;
+}
+
+.resume {
+    margin: 10px 0;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.container,
+.name,
+.position,
+.testimonial {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.testimonial-1,
+.testimonial-2, .testimonial-4{
+    color: var(--white);
+}
+
+.testimonial-1 {
+    grid-area: 2 / 2 / 3 / 4;
+    background: var(--purple-500);
+}
+
+.testimonial-2 {
+    grid-area: 2 / 4 / 3 / 5;
+    background: var(--grey-500);
+}
+
+.testimonial-3 {
+    grid-area: 3 / 2 / 4 / 3;
+    background: var(--white);
+}
+
+.testimonial-4 {
+    grid-area: 3 / 3 / 4 / 5;
+    background: var(--dark-blue);
+}
+
+.testimonial-5 {
+    grid-area: 2 / 5 / 4 / 6;
+    background: var(--white);
+}
+
+footer {
+
+    margin-top: auto;
+    width: 100%;
+    padding: 8px 0;
+    background: var(--dark-blue);
+    color: var(--white);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--purple-50);
+}
+
+.attribution a:hover {
+    color: var(--purple-500);
+}
