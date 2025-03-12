@@ -20,12 +20,12 @@ This project is a **Testimonial Grid Section** that displays five testimonials i
 
 ### Screenshot
 
-![Testimonial Grid Screenshot](./assets/images/screenshot-testimonials.png)
+![Testimonial Grid Screenshot](/images/screenshot-testimonials-grid.png)
 
 ### Links
 
-- [Solution URL](https://github.com/chryspenalber/testimonial-grid-section)
-- [Live Site](https://chryspenalber.github.io/testimonial-grid-section/)
+- [Solution URL](https://github.com/chryspenalber/testimonials-grid)
+- [Live Site](https://chryspenalber.github.io/testimonials-grid/)
 
 ## My Process
 
@@ -71,6 +71,7 @@ Future improvements could include:
 
 - [CSS Tricks - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - Helped me understand CSS Grid better.
 - [MDN Web Docs - CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) - Detailed documentation on grid properties.
+- [W3Schools - CSS Multiple Backgrounds](https://www.w3schools.com/css/css3_backgrounds.asp) - Helped me on using multiple backgrounds.
 - [Google Fonts](https://fonts.google.com/) - Used Barlow Semi Condensed for typography.
 
 ## Author
