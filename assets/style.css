@@ -35,17 +35,18 @@ main {
     grid-template-rows: .7fr repeat(2, 2fr) .7fr;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    
+
 }
 
 .container {
     border-radius: 8px;
     padding: 1.6em;
     box-shadow: 25px 25px 25px var(--black-shadow);
-    
+
 
 }
 
+/* <img class="quote" src="images/bg-pattern-quotation.svg" alt=""> */
 
 
 .person {
@@ -83,13 +84,17 @@ main {
 }
 
 .testimonial-1,
-.testimonial-2, .testimonial-4{
+.testimonial-2,
+.testimonial-4 {
     color: var(--white);
 }
 
 .testimonial-1 {
     grid-area: 2 / 2 / 3 / 4;
     background: var(--purple-500);
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top 20px right 30px;
 }
 
 .testimonial-2 {
@@ -133,4 +138,26 @@ footer {
 
 .attribution a:hover {
     color: var(--purple-500);
+}
+
+@media screen and (max-width: 950px) {
+
+    main {
+        grid-template-columns: 1fr repeat(4, 10fr) 1fr;
+        grid-template-rows: .4fr repeat(2, 2fr) .4fr;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+
+    
+    
 }
