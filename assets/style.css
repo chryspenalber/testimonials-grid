@@ -4,7 +4,6 @@
     --purple-50: #f2e6ff;
     --purple-300: #c299ff;
     --purple-500: #8559da;
-
     --white: #ffffff;
     --grey-100: #d9e2ec;
     --grey-200: #cfcfcf;
@@ -26,7 +25,6 @@ body {
     line-height: 1.4;
     color: var(--dark-blue);
     background: var(--grey-100);
-
 }
 
 main {
@@ -35,19 +33,13 @@ main {
     grid-template-rows: .7fr repeat(2, 2fr) .7fr;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-
 }
 
 .container {
     border-radius: 8px;
     padding: 1.6em;
     box-shadow: 25px 25px 25px var(--black-shadow);
-
-
 }
-
-/* <img class="quote" src="images/bg-pattern-quotation.svg" alt=""> */
-
 
 .person {
     display: flex;
@@ -60,7 +52,6 @@ main {
     margin-right: 10px;
 }
 
-
 .quote {
     display: block;
     width: 70px;
@@ -72,7 +63,6 @@ main {
     margin: 10px 0;
     font-size: 1rem;
     font-weight: 600;
-
 }
 
 .container,
@@ -118,7 +108,6 @@ main {
 }
 
 footer {
-
     margin-top: auto;
     width: 100%;
     padding: 8px 0;
@@ -141,23 +130,17 @@ footer {
 }
 
 @media screen and (max-width: 950px) {
-
     main {
         grid-template-columns: 1fr repeat(4, 10fr) 1fr;
         grid-template-rows: .4fr repeat(2, 2fr) .4fr;
     }
-
 }
 
 @media screen and (max-width: 650px) {
-
     main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 30px;
+        margin: 2em;
     }
-
-    
-    
 }
