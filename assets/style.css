@@ -82,7 +82,7 @@ main {
 .testimonial-1 {
     grid-area: 2 / 2 / 3 / 4;
     background: var(--purple-500);
-    background-image: url(../images/bg-pattern-quotation.svg);
+    background-image: url(../images/bg-quote.svg);
     background-repeat: no-repeat;
     background-position: top 20px right 30px;
 }
